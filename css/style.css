@@ -8,12 +8,12 @@ html,button,input,select,textarea{font-family:sans-serif}
 body{margin:0}
 a:focus{outline:thin dotted}
 a:active,a:hover{outline:0}
-h1{font-size:2em;margin:.67em 0}
-h2{font-size:1.5em;margin:.83em 0}
-h3{font-size:1.17em;margin:1em 0}
-h4{font-size:1em;margin:1.33em 0}
-h5{font-size:.83em;margin:1.67em 0}
-h6{font-size:.75em;margin:2.33em 0}
+h1{font-size:2em;margin:.67em 0;font-family: 'Oswald', sans-serif;}
+h2{font-size:1.5em;margin:.83em 0; font-family: 'Oswald', sans-serif;}
+h3{font-size:1.17em;margin:1em 0; font-family: 'Oswald', sans-serif;}
+h4{font-size:1em;margin:1.33em 0; font-family: 'Open Sans', sans-serif;}
+h5{font-size:.83em;margin:1.67em 0; font-family: 'Open Sans', sans-serif;}
+h6{font-size:.75em;margin:2.33em 0; font-family: 'Open Sans', sans-serif;}
 abbr[title]{border-bottom:1px dotted}
 b,strong{font-weight:bold}
 blockquote{margin:1em 40px}
@@ -51,7 +51,7 @@ table{border-collapse:collapse;border-spacing:0}
 
 
 body {
-	background: #ddd url(../img/subtle_grunge.png) top left repeat;
+	background: #ddd url(../img/pw_maze_white.png) top left repeat;
 	background-attachment: fixed;
     font-size: 14px;
     line-height: 1.7;
@@ -119,9 +119,14 @@ h1, h2, h3, h4, h5 {
    ========================================================================== */
 .site-title {
    	float:none;
-   	margin: 30px 30px;
-   	display: inline-block;
+   	margin: 50px 0px 20px 30px;
+   	display: block;
    	font-size: 3em;
+   	background: url(../img/logo.jpg) no-repeat;
+   	width: 300px;
+   	height: 70px;
+   	float: left;
+
 }
 
 .site-description {
@@ -179,7 +184,9 @@ header.wrapper {
 	border:none;
 	color:#999;
 	font-size:100%;
+	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
+	 
 }
 .sf-menu a:hover {
 	text-decoration: none;

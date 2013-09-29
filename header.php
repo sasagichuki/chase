@@ -15,6 +15,7 @@
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
 	<!-- stylesheet -->
 
 	
@@ -52,13 +53,10 @@
 	<div id="page">
 		<div class="header-container">
            <header class="wrapper clearfix">
-           	   <?php if (of_get_option('logo') !='' || of_get_option('logo_text')!='' ) { ?>
-               <h1 class="site-title"><a href="<?php bloginfo('url'); ?>"><?php if(of_get_option('logo')) : echo '<img src="'.of_get_option('logo').'" alt="'.get_bloginfo('name').'" />'; else: echo ''.of_get_option('logo_text').''; endif; ?></a></h1>
-               <?php } else { ?>
-               <h1 class="site-title"><a href="<?php bloginfo('url'); ?>"><?php echo get_bloginfo('name') ?></a></h1>
-               <?php } ?>
+           		<div class="site-title"><a href="<?php bloginfo('url'); ?>"></a></div>
+               <!-- <h1 class="site-title"><a href="<?php bloginfo(); ?>"></a></h1> -->
 
-               <p class="site-description"><?php bloginfo( 'description' ); ?></p>
+               <!-- <p class="site-description"><?php bloginfo(  ); ?></p> -->
 
 
                 <!-- .top-menu-container -->
