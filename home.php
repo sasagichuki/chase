@@ -1,5 +1,25 @@
 <?php get_header(); ?>
+		<div class="flexslider" id="metaslider-demo">
+			<ul class="slides">
 
+				<li>
+					<div class="content">
+						<img src="http://placehold.it/1080x420" width="1080" height="420" />
+					</div>
+
+			<!-- <img src="http://placehold.it/1080x420" width="1080" height="420" /> -->
+				</li>
+
+				<li>
+					<div class="content">
+						<img src="http://placehold.it/1080x425" width="1080" height="420" />
+					</div>
+
+			<!-- <img src="http://placehold.it/1080x420" width="1080" height="420" /> -->
+				</li>
+
+			</ul>
+		</div>
 		
 		<div class="column-one">
 			

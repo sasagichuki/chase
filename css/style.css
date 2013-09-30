@@ -156,6 +156,13 @@ header.wrapper {
 	-moz-box-sizing: content-box;
 }
 
+/*.slides{
+	float: left;
+	overflow: hidden;
+	height: 420px;
+	margin: auto 0;
+}*/
+
 
 /* ==========================================================================
    TOP MENU

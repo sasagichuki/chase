@@ -20,19 +20,7 @@
 
 	
     <!-- custom typography-->
-    <?php if(of_get_option('customtypography') == '1') { ?>  
-
-		<?php if(of_get_option('bodyfontlink') != '') { ?>
-			<?php echo stripslashes(html_entity_decode(of_get_option('bodyfontlink')));?>
-		<?php } ?>
-		
-		<?php if(of_get_option('headingfontlink') != '') { ?>
-			<?php echo stripslashes(html_entity_decode(of_get_option('headingfontlink')));?>
-		<?php } ?>
-
-	    <?php load_template( get_template_directory() . '/custom.typography.css.php' );?>
-
-	<?php } ?>
+    
 	<!-- custom typography -->
 
    
@@ -67,8 +55,10 @@
 						</div>
 					</nav>
 				</div>
+
            </header>
         </div>
+        <!--  -->
 
        
 
