@@ -41,8 +41,7 @@
 	<div id="page">
 		<div class="header-container">
            <header class="wrapper clearfix">
-           		<div class="site-title"><a href="<?php bloginfo('url'); ?>"></a></div>
-               <!-- <h1 class="site-title"><a href="<?php bloginfo(); ?>"></a></h1> -->
+			   <a href="<?php bloginfo('url'); ?>" class="site-title"></a>
 
                <!-- <p class="site-description"><?php bloginfo(  ); ?></p> -->
 

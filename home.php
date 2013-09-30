@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-		<div class="flexslider" id="metaslider-demo">
+		<!-- <div class="flexslider" id="metaslider-demo">
 			<ul class="slides">
 
 				<li>
@@ -7,7 +7,6 @@
 						<img src="http://placehold.it/1080x420" width="1080" height="420" />
 					</div>
 
-			<!-- <img src="http://placehold.it/1080x420" width="1080" height="420" /> -->
 				</li>
 
 				<li>
@@ -15,11 +14,14 @@
 						<img src="http://placehold.it/1080x425" width="1080" height="420" />
 					</div>
 
-			<!-- <img src="http://placehold.it/1080x420" width="1080" height="420" /> -->
+
 				</li>
 
 			</ul>
-		</div>
+		</div> -->
+			
+		<!-- Short code for the slider -->
+		<?php echo do_shortcode("[metaslider id=1699]"); ?>	
 		
 		<div class="column-one">
 			
