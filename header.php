@@ -15,7 +15,7 @@
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
-	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:300italic,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700|Open+Sans:100,300italic,400' rel='stylesheet' type='text/css'>
 	<!-- stylesheet -->
 
 	
@@ -41,26 +41,30 @@
 	<div id="page">
 		<div class="header-container">
            <header class="wrapper clearfix">
-           		<div class="site-title"><a href="<?php bloginfo('url'); ?>"></a></div>
+           		<a href="<?php bloginfo('url'); ?>"><div class="site-title"></div></a>
                <!-- <h1 class="site-title"><a href="<?php bloginfo(); ?>"></a></h1> -->
 
                <!-- <p class="site-description"><?php bloginfo(  ); ?></p> -->
 
 
                 <!-- .top-menu-container -->
-		        <div class="top-menu-container">
+		       <!--  <div class="top-menu-container">
 			        <nav>
 						<div id="top-menu">
 						<?php  site5_main_nav(); ?>
 						</div>
 					</nav>
-				</div>
+				</div> -->
 
            </header>
         </div>
-        <!--  -->
-
-       
+        <div class="big-menu">
+        	<nav>
+        		<div id="top-menu">
+        			<?php site5_main_nav(); ?>
+        		</div>
+        	</nav>
+        </div>
 
 		<!-- .main-container -->
 		<div class="main-container">
