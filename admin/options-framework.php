@@ -214,7 +214,7 @@ function optionsframework_page() {
           </div>
 
           <div class="site5author">
-            <h2><a href="http://www.s5themes.com"><?php esc_attr_e( 'A Theme by','site5framework' ); ?> <strong><?php esc_attr_e( 'S5themes.com','site5framework' ); ?></strong></a></h2>
+            <h2><a href="http://sprout.co.ke.com"><?php esc_attr_e( 'A Theme by','site5framework' ); ?> <strong><?php esc_attr_e( 'sprout.co.ke','site5framework' ); ?></strong></a></h2>
           </div>
 
           <div class="clear"></div>
