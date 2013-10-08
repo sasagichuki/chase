@@ -7,7 +7,10 @@
 						<img src="http://placehold.it/1080x420" width="1080" height="420" />
 					</div>
 
+<<<<<<< HEAD
 			<img src="http://placehold.it/1080x420" width="1080" height="420" />
+=======
+>>>>>>> 9278d2b1ec60c28e74d2b6b2d90f8cfd26d77a62
 				</li>
 
 				<li>
@@ -15,11 +18,21 @@
 						<img src="http://placehold.it/1080x425" width="1080" height="420" />
 					</div>
 
+<<<<<<< HEAD
 			<img src="http://placehold.it/1080x420" width="1080" height="420" /> -->
 				<!-- </li> -->
 
 			<!-- </ul> -->
 		<!-- </div> -->
+<!-- =======
+
+				</li>
+
+			</ul>
+		</div> -->
+			
+		<!-- Short code for the slider -->
+
 		
 		<div class="column-one">
 			
