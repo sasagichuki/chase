@@ -9,7 +9,7 @@
 	<meta charset="utf-8">
 	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/><![endif]-->
 	<title><?php wp_title(' | ', true, 'right'); ?> <?php bloginfo('name'); ?></title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1"/>
 	<meta name="keywords" content="<?php echo of_get_option('metakeywords'); ?>" />
 	<meta name="description" content="<?php echo of_get_option('metadescription'); ?>" />
 

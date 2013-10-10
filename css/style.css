@@ -662,6 +662,10 @@ h2.post-title {
     line-height: 1.2;
     margin-bottom: 1em;
 }
+
+.post-title a{
+	color: #9D1B40;
+}
 .prev-post,
 .next-post {
 	position: fixed;
