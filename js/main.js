@@ -90,7 +90,7 @@ $('.next-post').hover(
 
 
 var $container = $('#posts');
-$container.masonry( 'reload' );
+$container.masonry().masonry( 'reload' );
 
 
 

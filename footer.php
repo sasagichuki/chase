@@ -18,6 +18,9 @@
 					<?php echo of_get_option('footer_copyright')  ?>
 					<?php } ?>
 					<!-- end copyright -->
+
+					| Created by <a href="http://sprout.co.ke">Sprout Digital</a>
+                    
                 </footer>
             </div>
             <!-- end .footer-container -->

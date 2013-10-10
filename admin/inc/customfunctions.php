@@ -75,7 +75,7 @@ function remove_footer_admin () {
     $themeVersion = $theme['Version'];
     $themeDescription = $theme['Description'];
 
-    echo "<b><a href=http://www.s5themes.com>$themeName - $themeVersion</a></b> - $themeDescription | <a href=www.s5themes.com/>Designed by S5themes.com</a> ";
+    echo "<b><a href=http://sprout.co.ke>$themeName - $themeVersion</a></b> - $themeDescription | <a href=sprout.co.ke/>Designed by sprout</a> ";
 }
 add_filter('admin_footer_text', 'remove_footer_admin');
 
