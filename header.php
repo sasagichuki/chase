@@ -15,7 +15,7 @@
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" media="all" href="<?php bloginfo('stylesheet_url'); ?>"/>
-	<link href='http://fonts.googleapis.com/css?family=Candal|Open+Sans:100,300italic,400' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab:400,600|Open+Sans:100,300italic,400' rel='stylesheet' type='text/css'>
 	<!-- stylesheet -->
 
 	
