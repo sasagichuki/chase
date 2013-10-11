@@ -160,7 +160,7 @@ header.wrapper {
 	left: 0;
 	width: 100%;
 	z-index: 99999;
-	margin-bottom: 20px;
+/*	margin-bottom: 20px;*/
 	-moz-box-sizing: content-box;
 }
 
@@ -195,11 +195,15 @@ header.wrapper {
 	
 }
 
+#sticky-header {
+	z-index: 99999;
+}
+
 .big-menu{
 	float: left;
 	width: 100%;
 	background: #0B82C6;
-	margin-top: -21px;
+/*	margin-top: -21px;*/
 }
 
 nav{

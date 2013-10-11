@@ -93,8 +93,21 @@ var $container = $('#posts');
 $container.masonry().masonry( 'reload' );
 
 
+//making the header sticky
+var stickyHeaderTop = $('#sticky-header').offset().top + 5;
+
+
+$(window).scroll(function(){
+    if( $(window).scrollTop() > stickyHeaderTop ) {
+            $('#sticky-header').css({position: 'fixed', top: '0px'});
+    } else {
+            $('#sticky-header').css({position: 'static', top: '0px'});
+    }
+});
+		
 
 }); //end document.ready
+
 
 
 
