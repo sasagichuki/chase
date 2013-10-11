@@ -280,6 +280,10 @@ a > .sf-sub-indicator {
     top: 4.5em;
 }
 
+.home-link {
+	float:left;
+}
+
 
 .social-media {
 	float: right;
