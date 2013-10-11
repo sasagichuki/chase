@@ -58,7 +58,7 @@
 
            </header>
         </div>
-        <div class="big-menu">
+        <div class="big-menu" id="sticky-header">
         	<nav>
         		<div id="top-menu">
         			<?php site5_main_nav(); ?>
