@@ -265,7 +265,7 @@ nav{
 
 }
 .sf-menu > li:hover {
-	border-radius:5px 5px 5px 5px;
+/*	border-radius:5px 5px 5px 5px;*/
 	border: 0px solid #ccc;
 	background: #eeeeee;
 }
@@ -280,6 +280,15 @@ a > .sf-sub-indicator {
     top: 4.5em;
 }
 
+
+.social-media {
+	float: right;
+}
+
+.social-media a {
+	height: 30px;
+	padding: 10px 0px;
+}
 
 
 
@@ -924,6 +933,11 @@ img.wp-smiley {
 	font-size: 12px;
 	color: #666666;
 }
+
+.sidebar {
+	margin-top: 20px;
+}
+
 /* ==========================================================================
    Widgets 
    ========================================================================== */

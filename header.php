@@ -61,7 +61,25 @@
         <div class="big-menu" id="sticky-header">
         	<nav>
         		<div id="top-menu">
-        			<?php site5_main_nav(); ?>
+					<div class="home-link">
+					</div>					
+					<div class="social-media">
+						<ul>
+							<li>
+								<a href="http://facebook.com/pages/Chase-Bank-Kenya/112814108750179" class="facebook"></a>
+							</li>
+							<li>
+								<a href="http://twitter.com/chasebankkenya" class="twitter"></a>
+							</li>
+							<li>
+								<a href="http://www.linkedin.com/company/chase-bank-kenya-ltd" class="linkedin"></a>
+							</li>							
+							<li>
+								<a href="http://www.youtube.com/user/ChaseBankKenya" class="youtube"></a>
+							</li>														
+						</ul>						
+					</div>
+					<?php site5_main_nav(); ?>
         		</div>
         	</nav>
         </div>
