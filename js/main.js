@@ -100,8 +100,10 @@ var stickyHeaderTop = $('#sticky-header').offset().top + 5;
 $(window).scroll(function(){
     if( $(window).scrollTop() > stickyHeaderTop ) {
             $('#sticky-header').css({position: 'fixed', top: '0px'});
+			jQuery('.home-link a').css("display", "block");
     } else {
             $('#sticky-header').css({position: 'static', top: '0px'});
+			jQuery('.home-link a').css("display", "none");
     }
 });
 		

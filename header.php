@@ -62,8 +62,7 @@
         	<nav>
         		<div id="top-menu">
 					<div class="home-link">
-						<a href="/">
-							<img src="img/logo_small.png" />
+						<a href="/">							
 						</a>
 					</div>					
 					<div class="social-media">

@@ -284,6 +284,14 @@ a > .sf-sub-indicator {
 	float:left;
 }
 
+.home-link a {
+	display: none;
+	background-image: url('../img/logo-small.jpg');
+	height: 44px;
+	width: 138px;
+	margin: 3px 10px;	
+}
+
 
 .social-media {
 	float: right;
