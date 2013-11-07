@@ -1312,10 +1312,23 @@ textarea {
 
 	.site-title {
         float: none !important;
+        margin: 50px auto 20px auto;
     }
 
     .top-menu-container {
         float: none;
+    }
+
+    .social-media li {
+    	float: left;
+    }
+
+    .social-media a {
+    	padding-bottom: 15px;
+    }
+
+    .wrapper { 
+    	margin: 0 auto 0;
     }
 
     /* menu icon */
@@ -1351,6 +1364,7 @@ textarea {
             margin:0;
             background: transparent !important;
     }
+
     .sf-menu > li {margin-bottom: 1px;
     }
     .sf-menu a,
@@ -1399,7 +1413,7 @@ textarea {
 		margin: 0 auto;
 	}
 	.wrapper {
-		margin:0 auto 10px;
+		/*margin:0 auto 10px;*/
 	}
 
 	.box {
