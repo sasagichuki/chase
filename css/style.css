@@ -1212,6 +1212,44 @@ nav#comment-nav {
 
 .nocomments { margin: 0 20px 17px; }
 
+/*  ==============
+	SUBSCRIBE FORM
+	============== */
+.newsletter {
+	position: fixed;
+	top: 400px;
+	z-index: 2;
+	width: 300px;
+	left: -234px;
+}
+
+.newsletter.active {
+	left: 0px;
+} 
+
+.newsletter input[type="text"] {
+	width: 220px;
+	height: 45px;
+	display: inline-block;	
+}
+
+.mail-icon {
+	background: url(../img/mail.png);
+	display: inline-block;
+	width: 67px;
+	height: 54px;
+	float: right;
+	margin-left: -5px;
+}
+
+.newsletter .instructions {
+	background-color: #1882c8;
+	display: inline-block;
+	color: white;
+	width: 229px;
+	padding-left: 5px;
+	border-radius: 0 0 5px;
+}
 
 /* ==========================================================================
    CONTACT FORM

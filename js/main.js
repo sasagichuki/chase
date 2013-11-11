@@ -112,7 +112,19 @@ $(window).scroll(function(){
 
 
 
+ $('.mail-icon').click(function() {
+    
+    if ($('.newsletter').hasClass('active')) {
+        // 
+    }
+    else {
+      $('.newsletter').addClass('active');
+    }
+ });
 
+ $('.subscribe-form').submit(function() {
+  return;   
+ });
 
 
 })(jQuery);
