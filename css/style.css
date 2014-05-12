@@ -64,7 +64,8 @@ body {
 }
 a {
 	text-decoration: none;
-	color:#E93071;
+	/*color:#E93071;*/
+	color: #9D1B40;
 }
 
 
@@ -1028,6 +1029,8 @@ img.wp-smiley {
 		display: block;
 		list-style: none;
 		margin-bottom: 10px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #cecece;
 	}
 
 	.widget_sidebar .post-date {
@@ -1093,7 +1096,11 @@ img.wp-smiley {
 ol.commentlist {
 	margin-top: 10px;
 	margin-bottom:20px;
-	padding-left: 0;
+	/*padding-left: 0;*/
+
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
 }
 ul.children {
   padding-left: 0;
@@ -1622,6 +1629,39 @@ textarea {
     *zoom: 1;
 }
 
+/** =============
+	Related Posts
+	============= */
+.yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	margin-right: 25px;
+}
+
+
+.yarpp-thumbnails-horizontal {
+	background: #fff;
+	padding: 20px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.related-stories .yarpp-thumbnails-horizontal .yarpp-thumbnail {
+	margin: 5px 25px 5px 0;
+}
+
+.related-stories .yarpp-related h3 {
+	border-radius: 5px 5px 0 0;
+	background: #F0F0F0 !important;
+	border-top: 1px solid #EEEEEE;
+	font-weight: bold;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.9);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	border-top: 1px solid #fff;
+	padding: 10px 20px !important;
+}
+
+.related-stories .yarpp-thumbnails-horizontal .yarpp-thumbnail { 
+	border: none;
+}
 
 /** ==========================================================================
 	Sub Menu Styles

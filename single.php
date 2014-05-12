@@ -180,6 +180,10 @@
 					<?php the_tags('', ' ', ' '); ?> 
 				</div>
 
+				<div class="related-stories">
+					<?php related_posts(); ?>
+				</div>
+
 			</article>
 
 			<?php endwhile; ?>
