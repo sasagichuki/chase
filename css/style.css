@@ -217,7 +217,7 @@ nav{
 	color:#999;
 	font-size:100%;
 	font-family: 'Open Sans', sans-serif;
-	font-weight:300;
+	font-weight:400;
 	color: #fff;
 	 
 }
@@ -1619,6 +1619,43 @@ textarea {
 
 .clearfix {
     *zoom: 1;
+}
+
+
+/** ==========================================================================
+	Sub Menu Styles
+   ========================================================================== */
+
+.sf-menu > li:hover {
+	background: #0073b5;
+	border-radius: 0px;
+	color: #ffffff;
+}
+
+.sf-menu li:hover, .sf-menu li.sfHover, .sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	color: #ffffff;
+	background: #0073b5;
+}
+
+
+/*.sf-sub-indicator {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+}*/
+
+a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
+	background-position: -10px -100px;
+}
+
+.sf-menu li:hover ul, .sf-menu li.sfHover ul {
+	top: 50px;
+	border-radius: 0px 5px;
+}
+
+.sf-menu li li, .sf-menu li li li {
+	background: #0081ca;
 }
 
 

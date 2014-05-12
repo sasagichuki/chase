@@ -80,8 +80,17 @@
 								<a href="http://www.youtube.com/user/ChaseBankKenya" class="youtube"></a>
 							</li>														
 						</ul>						
-					</div>
+					</div>					
 					<?php site5_main_nav(); ?>
+					<!-- <div class="categories-dd">
+						<ul class="sf-menu sf-js-enabled">
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a>
+									Stories
+								</a>
+							</li>
+						</ul>
+					</div> -->
         		</div>
         	</nav>
         </div>
