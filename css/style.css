@@ -1626,6 +1626,15 @@ textarea {
 	Sub Menu Styles
    ========================================================================== */
 
+.big-menu nav {
+	height: 50px;
+}
+
+.sf-menu a {
+	font-size: 14px;
+	padding: 1.25em 1em;
+}
+
 .sf-menu > li:hover {
 	background: #0073b5;
 	border-radius: 0px;
@@ -1638,12 +1647,13 @@ textarea {
 }
 
 
-/*.sf-sub-indicator {
-	-webkit-transform: rotate(90deg);
+.sf-sub-indicator {
+	margin-top: 8px;
+/*	-webkit-transform: rotate(90deg);
 	-moz-transform: rotate(90deg);
 	-ms-transform: rotate(90deg);
 	-o-transform: rotate(90deg);
-}*/
+*/}
 
 a:focus > .sf-sub-indicator, a:hover > .sf-sub-indicator, a:active > .sf-sub-indicator, li:hover > a > .sf-sub-indicator, li.sfHover > a > .sf-sub-indicator {
 	background-position: -10px -100px;
