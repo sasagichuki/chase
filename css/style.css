@@ -207,8 +207,9 @@ header.wrapper {
 }
 
 nav{
-	float: left;
+	/*float: left;*/
 	margin: 0 auto;
+	max-width: 1020px;
 
 }
 .sf-menu a, .sf-menu a:visited  {
@@ -1530,7 +1531,7 @@ textarea {
     }
 
     nav {
-        float: left;
+        /*float: left;*/
         width: 80%;
     }
 
@@ -1625,6 +1626,11 @@ textarea {
 /** ==========================================================================
 	Sub Menu Styles
    ========================================================================== */
+
+.sf-menu {
+	float: left;
+	/*margin-left: 200px;*/
+}
 
 .big-menu nav {
 	height: 50px;
