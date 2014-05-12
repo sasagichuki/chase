@@ -1,16 +1,9 @@
                 </div>
                 <!-- end #main -->
             </div>
-            <!-- end .main-container -->
+            <!-- end .main-container -->        
 
-            <div class="newsletter">
-                <form class="subscribe-form" method="POST">
-                    <input type="text" name="email" placeholder="email" />
-                    <a class="mail-icon" href="#"></a>
-                    <span class="instructions">Enter your email to subscribe</span>
-                </form>
-                
-            </div>
+            <?php echo nssubform(); ?>
 
             <!-- .footer-container -->
             <div class="footer-container clearfix">
